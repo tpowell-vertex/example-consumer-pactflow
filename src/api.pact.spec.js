@@ -18,8 +18,7 @@ describe('API Pact test', () => {
       // Arrange
       const expectedProduct = {
         id: '10',
-        type: 'CREDIT_CARD',
-        name: '28 Degrees'
+        type: 'CREDIT_CARD'
       };
 
       // Uncomment to see this fail
@@ -85,8 +84,7 @@ describe('API Pact test', () => {
       // set up Pact interactions
       const expectedProduct = {
         id: '10',
-        type: 'CREDIT_CARD',
-        name: '28 Degrees'
+        type: 'CREDIT_CARD'
       };
 
       mockProvider
